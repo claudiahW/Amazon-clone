@@ -1,8 +1,33 @@
+/* google fonts url */
+
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
+/* general page layout */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: outfit;
+}
+
+/* body section */
+body {
+  background: #dadada;
+}
+
+/* navigation section */
+
+/* nav container */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #131921;
+  padding: 10px 20px;
+  color: #fff;
+}
+/* nav menu links */
+a {
+  text-decoration: none;
+  color: inherit;
 }
