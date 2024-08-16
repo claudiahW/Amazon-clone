@@ -33,8 +33,6 @@ a {
   color: inherit;
 }
 
-
-
 .nav-country {
   display: flex;
   align-items: end;
@@ -109,6 +107,8 @@ a {
   color: #fff;
   font-size: 15px;
 }
+
+
 .nav-bottom div {
   display: flex;
   align-items: center;
