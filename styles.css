@@ -108,7 +108,6 @@ a {
   font-size: 15px;
 }
 
-
 .nav-bottom div {
   display: flex;
   align-items: center;
@@ -116,6 +115,7 @@ a {
   font-weight: 500;
 }
 
+/* header section */
 .header-slider ul {
   display: flex;
   overflow-y: hidden;
