@@ -21,3 +21,11 @@ prev_btn.addEventListener("click", (e) => {
   changeSlide();
 });
 
+next_btn.addEventListener("click", (e) => {
+  if (n < imgs.length - 1) {
+    n++;
+  } else {
+    n = 0;
+  }
+  changeSlide();
+});
