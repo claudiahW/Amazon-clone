@@ -26,11 +26,14 @@ nav {
   padding: 10px 20px;
   color: #fff;
 }
+
 /* nav menu links */
 a {
   text-decoration: none;
   color: inherit;
 }
+
+
 
 .nav-country {
   display: flex;
