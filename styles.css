@@ -170,6 +170,8 @@ a {
 .header-box {
   margin-top: -20vw;
 }
+
+/* products slider section */
 .products-slider {
   background: #fff;
   margin: 0 30px;
@@ -186,4 +188,8 @@ a {
 .products-slider .products img {
   max-width: 200px;
   max-height: 200;
+}
+
+.products-slider .products::-webkit-scrollbar {
+  display: none;
 }
