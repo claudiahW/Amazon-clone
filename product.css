@@ -1,5 +1,11 @@
 body {
   background: #fff;
+ 
+ 
+}
+#product-body{
+  width: auto;
+  
 }
 .breadcrumb {
   padding: 10px 20px;
@@ -220,4 +226,8 @@ body {
   text-align: start;
   background: white;
   cursor: pointer;
+}
+
+.product-footer{
+  margin-top: 100px;
 }
