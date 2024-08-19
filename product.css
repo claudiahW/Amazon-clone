@@ -167,20 +167,19 @@ body {
   gap: 3px;
 }
 
-.product-stock{
+.product-stock {
   margin: 15px 0;
   color: green;
   font-weight: 400;
 }
 
-.product-quantity{
+.product-quantity {
   padding: 8px 5px;
   outline: none;
   width: 100%;
   border-radius: 5px;
   background: #efefef;
   border-color: #c1c1c1;
-
 }
 
 .product-d-purchase .btn {
@@ -191,5 +190,34 @@ body {
   padding: 10px 0;
   margin-top: 10px;
   border-radius: 50px;
+  cursor: pointer;
+}
 
+.product-d-purchase .prodct-buy {
+  background-color: #ffa41c;
+}
+.product-seller-info {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 4px;
+  font-size: 14px;
+  color: #565656;
+}
+.product-seller-info span {
+  color: #007185;
+}
+.product-d-purchase hr{
+  margin: 20px 0;
+
+}
+
+.product-add-list{
+  width:100% ;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  text-align: start;
+  background: white;
+  cursor: pointer;
 }
