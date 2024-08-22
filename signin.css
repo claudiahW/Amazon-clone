@@ -61,3 +61,15 @@ body {
 .signin-container button:hover {
   background: #ebc712;
 }
+
+.signin-condition {
+  font-size: 12px;
+}
+
+.signin-container p span{
+  color: #0066c0;
+}
+.signin-help{
+  font-size: 13px;
+  margin: 20px 0;
+}
